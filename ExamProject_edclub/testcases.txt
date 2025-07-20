@@ -1,0 +1,124 @@
+#01 Valid Login_Individual edition
+
+Email = olesya.pilip@gmail.com
+pass = 123456_edclub
+
+Pre-condition: User olesya.pilip@gmail.com is successfully registered
+
+Steps:
+1. Open the main page: https://www.edclub.com/
+2. Click the Log in button in the header
+→Verify that a pop-up appears with two options:
+*Individual Edition
+*School Edition
+3. Click on Individual Edition
+→Verify redirection to: https://www.edclub.com/signin
+→Verify that the form contains the text: Log in | Individual Edition
+4. Enter the form fields:
+*Username/Email: olesya.pilip@gmail.com
+*Password: 123456_edclub
+5. Click the Log in button
+
+Expected result:
+1. The user is redirected to the Home page https://www.edclub.com/sportal/
+2. The Log in button disappears from the header
+3. A dropdown with the name Olesia appears in the top right corner
+
+Post condition: The user is logged in successfully
+
+
+
+#02 My Profile Update
+
+Pre-condition:
+1. User olesya.pilip@gmail.com is successfully logged in
+
+Steps:
+1. In the header, click on the dropdown with the name Olesya
+2. From the dropdown list, click on Profile
+→Verify the user is redirected to: https://www.edclub.com/sportal/profile.html
+3. In the form that appears, enter Olesya into the Username field
+3.1. Verify that:
+-The Email field contains olesya.pilip+test1@gmail.com
+-The First Name field contains Olesia
+-The Last Name field contains Johnson
+-The Time Zone field is set to US/Eastern
+4. In the Personal goals section:
+-Select 10 minutes from the Daily Goal dropdown
+-Select 20 minutes from the Weekly Goal dropdown
+-Select Monday from the First Day of Week dropdown
+5. Click the Save Changes button
+
+Expected result:
+1. A success message appears: Your profile was successfully updated
+
+Post condition: Profile data is updated and saved successfully
+
+
+
+#03  Library – Apply 'Reading' Filter
+
+Pre-condition:
+1. User olesya.pilip@gmail.com is successfully logged into the system
+
+Steps:
+1. Open the main page: https://www.edclub.com/
+2. In the header, click on the Library tab
+→Verify redirection to the Library page https://www.edclub.com/library
+3. In the Filters section (left sidebar), check the box for Reading
+→Verify the updated URL: https://www.edclub.com/library?page=1&ordering=learners_count&locale=en_US&limit=12&subject__in=5
+→Verify that 12 course cards are displayed on the page
+
+Expected result:
+1. The Library page opens successfully with the correct URL
+2. After applying the Reading filter, exactly 12 course cards related to Reading are displayed
+
+Post condition:
+1. The filter is applied; the user sees a filtered list of Reading courses
+
+
+
+#04 Search – Filtered Search in Library
+
+Pre-condition:
+1. User olesya.pilip@gmail.com is successfully logged into the system
+
+Steps:
+1. Open the main page: https://www.edclub.com/
+2. In the header, click on the Library tab
+→Verify redirection to the Library page https://www.edclub.com/library
+3. In the Filters section (left sidebar), check the box for Reading
+→Verify the updated URL: https://www.edclub.com/library?page=1&ordering=learners_count&locale=en_US&limit=12&subject__in=5
+4. In the Search field, type: "Letters & Sight Words"
+5. Press Enter
+→Verify redirection to:
+https://www.edclub.com/library?page=1&ordering=learners_count&locale=en_US&limit=12&subject__in=5&search=Letters+%26+Sight+Words
+→Verify that the search results display exactly 1 course card titled "Letters & Sight Words"
+
+Expected result:
+1. After searching the input and pressing Enter:
+-The correct search results URL is opened
+-Only the "Letters & Sight Words" matching course is displayed
+2.
+
+Post condition:
+1. The search query remains visible in the search field
+2. The course result is displayed according to the search and filter parameters
+
+
+
+#05 Logout
+
+Pre-condition:
+1. User olesya.pilip@gmail.com is successfully logged into the system
+
+Steps:
+1. On the Home page https://www.edclub.com/sportal/, click on the dropdown with the name Olesya in the top right corner
+2. From the dropdown menu, click Logout
+
+Expected result:
+1. The user is redirected to the Main page https://www.edclub.com/
+2. The Log in and Sign up buttons are displayed in the header
+
+Post condition:
+1. The user is logged out of the system
