@@ -1,0 +1,51 @@
+#01 Valid Login_Individual edition
+
+button.login=.//a[@href='/signin']
+button.IndividualEdition=.//a[contains(@class, 'modal-btn') and contains(., 'Individual Edition')]
+LoginForm.IndividualEdition=.//div[contains(@class, 'card')]//h1[text()='Log in']
+input.LoginForm.Username=.//input[@id='email']
+input.LoginForm.Password=.//input[@id='password']
+button.LogIn=.//input[@type='submit' and contains(@value, 'Log in')]
+dropdown.UserMenu_Olesia=.//a[@class='dropdown-toggle' and @role='menuitem' and contains(text(),'Olesia')]
+
+
+#02 My Profile Update
+
+dropdown.UserMenu_Olesia=.//a[@class='dropdown-toggle' and @role='menuitem' and contains(text(),'Olesia')]
+button.Profile=.//a[@href='#' and @role='menuitem' and contains(text(),'Profile')]
+input.UserProfileForm.Username=.//input[@id='username']
+input.UserProfileForm.Email=.//input[@id='email']
+input.UserProfileForm.FirstName=.//input[@id='fname']
+input.UserProfileForm.LastName=.//input[@id='lname']
+input.UserProfileForm.TimeZone=.//select[@id='timezone']
+input.UserProfileForm.DailyGoal=.//select[@id='typing_goal_daily']
+input.UserProfileForm.DailyGoalOption=.//select[@id='typing_goal_daily']/option[text()='10 minutes']
+input.UserProfileForm.WeeklyGoal=.//select[@id='typing_goal_weekly']
+input.UserProfileForm.WeeklyGoalOption=.//select[@id='typing_goal_weekly']/option[text()='20 minutes']
+input.UserProfileForm.FirstDayOfWeek=.//select[@id='weekday_start']
+input.UserProfileForm.FirstDayOfWeekOption=.//select[@id='weekday_start']/option[text()='Monday']
+button.UserProfileForm.SaveChanges=.//button[@type='submit' and contains(text(),'Save Changes')]
+successBanner.ProfileUpdated=.//div[@class='alert alert-success' and contains(text(),'Your profile was successfully updated.')]
+
+
+#03 Library – Apply 'Reading' Filter
+
+button.Library=.//a[@href='/library']
+checkbox.FilterReading=.//input[@type='checkbox' and @id='reading-filter--1' and @value='reading']
+
+
+#04 Search – Filtered Search in Library
+
+button.Library=.//a[@href='/library']
+checkbox.FilterReading=.//input[@type='checkbox' and @id='reading-filter--1' and @value='reading']
+input.SearchField=.//input[@name='search_input' and @placeholder='Search']
+course_card.search_result=.//a[@href='/library/reading-letters-sight-words']//h2[text()='Letters & Sight Words']
+
+
+#05 Logout
+
+dropdown.UserMenu_Olesia=.//a[@class='dropdown-toggle' and @role='menuitem' and contains(text(),'Olesia')]
+button.Logout=.//a[@role='menuitem' and contains(text(), 'Logout')]
+button.login=.//a[@href='/signin']
+button.signUp=.//a[@href='/signup']
+

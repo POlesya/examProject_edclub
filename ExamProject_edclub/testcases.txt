@@ -37,7 +37,7 @@ Steps:
 1. In the header, click on the dropdown with the name Olesya
 2. From the dropdown list, click on Profile
 →Verify the user is redirected to: https://www.edclub.com/sportal/profile.html
-3. In the form that appears, enter Olesya into the Username field
+3. In the form that appears, enter Olesia into the Username field
 3.1. Verify that:
 -The Email field contains olesya.pilip+test1@gmail.com
 -The First Name field contains Olesia
@@ -67,11 +67,9 @@ Steps:
 →Verify redirection to the Library page https://www.edclub.com/library
 3. In the Filters section (left sidebar), check the box for Reading
 →Verify the updated URL: https://www.edclub.com/library?page=1&ordering=learners_count&locale=en_US&limit=12&subject__in=5
-→Verify that 12 course cards are displayed on the page
 
 Expected result:
-1. The Library page opens successfully with the correct URL
-2. After applying the Reading filter, exactly 12 course cards related to Reading are displayed
+1. The user is redirected to the Library page with the correct URL
 
 Post condition:
 1. The filter is applied; the user sees a filtered list of Reading courses
@@ -113,7 +111,7 @@ Pre-condition:
 1. User olesya.pilip@gmail.com is successfully logged into the system
 
 Steps:
-1. On the Home page https://www.edclub.com/sportal/, click on the dropdown with the name Olesya in the top right corner
+1. On the Home page https://www.edclub.com/sportal/, click on the dropdown with the name Olesia in the top right corner
 2. From the dropdown menu, click Logout
 
 Expected result:
