@@ -1,11 +1,13 @@
 #01 Valid Login_Individual edition
 
 button.login=.//a[@href='/signin']
+button.AcceptCookies=.//button[contains(., 'Accept all cookies')]
+loginPopupContainer.loginForm=.//div[contains(@class, 'edmodal-box') and contains(@class, 'auth-modal')]
 button.IndividualEdition=.//a[contains(@class, 'modal-btn') and contains(., 'Individual Edition')]
-LoginForm.IndividualEdition=.//div[contains(@class, 'card')]//h1[text()='Log in']
+loginFormTitle=.//div[contains(@class, 'card')]//h1[text()='Log in']
 input.LoginForm.Username=.//input[@id='email']
 input.LoginForm.Password=.//input[@id='password']
-button.LogIn=.//input[@type='submit' and contains(@value, 'Log in')]
+button.LogIn.LoginForm=.//input[@type='submit' and contains(@value, 'Log in')]
 dropdown.UserMenu_Olesia=.//a[@class='dropdown-toggle' and @role='menuitem' and contains(text(),'Olesia')]
 
 
@@ -30,7 +32,7 @@ successBanner.ProfileUpdated=.//div[@class='alert alert-success' and contains(te
 
 #03 Library – Apply 'Reading' Filter
 
-button.Library=.//a[@href='/library']
+button.Library=//a[@href='/library' and text()='Library']
 checkbox.FilterReading=.//input[@type='checkbox' and @id='reading-filter--1' and @value='reading']
 
 

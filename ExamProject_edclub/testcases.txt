@@ -6,13 +6,12 @@ pass = 123456_edclub
 Pre-condition: User olesya.pilip@gmail.com is successfully registered
 
 Steps:
-1. Open the main page: https://www.edclub.com/
+1. Open the Main page: https://www.edclub.com/
 2. Click the Log in button in the header
 →Verify that a pop-up appears with two options:
 *Individual Edition
-*School Edition
 3. Click on Individual Edition
-→Verify redirection to: https://www.edclub.com/signin
+→Verify redirection to the Login page https://www.edclub.com/signin
 →Verify that the form contains the text: Log in | Individual Edition
 4. Enter the form fields:
 *Username/Email: olesya.pilip@gmail.com
@@ -34,14 +33,14 @@ Pre-condition:
 1. User olesya.pilip@gmail.com is successfully logged in
 
 Steps:
-1. In the header, click on the dropdown with the name Olesya
+1. In the header on the Home page, click on the dropdown with the name Olesya
 2. From the dropdown list, click on Profile
-→Verify the user is redirected to: https://www.edclub.com/sportal/profile.html
-3. In the form that appears, enter Olesia into the Username field
-3.1. Verify that:
--The Email field contains olesya.pilip+test1@gmail.com
+→Verify the user is redirected to the My Profile page https://www.edclub.com/sportal/profile.html
+3. In the form that appears, verify that:
+-The Username field contains polesia
+-The Email field contains olesya.pilip@gmail.com
 -The First Name field contains Olesia
--The Last Name field contains Johnson
+-The Last Name field contains Pylyp
 -The Time Zone field is set to US/Eastern
 4. In the Personal goals section:
 -Select 10 minutes from the Daily Goal dropdown
@@ -62,7 +61,7 @@ Pre-condition:
 1. User olesya.pilip@gmail.com is successfully logged into the system
 
 Steps:
-1. Open the main page: https://www.edclub.com/
+1. Open the Main page: https://www.edclub.com/
 2. In the header, click on the Library tab
 →Verify redirection to the Library page https://www.edclub.com/library
 3. In the Filters section (left sidebar), check the box for Reading
@@ -82,7 +81,7 @@ Pre-condition:
 1. User olesya.pilip@gmail.com is successfully logged into the system
 
 Steps:
-1. Open the main page: https://www.edclub.com/
+1. Open the Main page: https://www.edclub.com/
 2. In the header, click on the Library tab
 →Verify redirection to the Library page https://www.edclub.com/library
 3. In the Filters section (left sidebar), check the box for Reading
@@ -97,7 +96,7 @@ Expected result:
 1. After searching the input and pressing Enter:
 -The correct search results URL is opened
 -Only the "Letters & Sight Words" matching course is displayed
-2.
+
 
 Post condition:
 1. The search query remains visible in the search field
@@ -116,7 +115,7 @@ Steps:
 
 Expected result:
 1. The user is redirected to the Main page https://www.edclub.com/
-2. The Log in and Sign up buttons are displayed in the header
+2. The Log in button are displayed in the header
 
 Post condition:
 1. The user is logged out of the system
